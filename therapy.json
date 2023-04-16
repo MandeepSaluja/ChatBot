@@ -1,0 +1,104 @@
+
+{"intents":
+
+[{"tag": "greetings",
+"patterns": ["hello","hey","hii","hlo","hi"],
+"responses": ["Hey!"]
+},
+
+{"tag" : "name",
+"patterns":["What should I call you?","What is your name?","your name?","Who are you","name"] ,
+"responses": ["You can call me Therapist"]
+ },
+
+{"tag" : "intro",
+"patterns":["I need your help", "I need therapist", "help"],
+"responses": ["Are you feeling low?"]},
+
+{"tag" : "disease",
+"patterns": ["i am not filling well","illness","disease","ailment","sickness","disorder","complaint","pain","suffering","bother","trouble","strain","struggle","symptoms","can you pls detect my symptoms"],
+"responses": ["Ok,no worries, treat me as your friend and just tell me all your symptoms! "]
+},
+{"tag" : "symptoms",
+"patterns": ["Persistent sadness", "loss of interest in activities", "loss of appetite", "feelings of worthlessness", "becoming easily agitated Feelings of sadness", "tearfulness", "emptiness", "hopelessness", "angry outbursts", "frustration", "Slowed thinking", "speaking or body movements Feelings of worthlessness", "guilt", "fixating on past failures", "self-blame","Trouble thinking", "Trouble concentrating", "Trouble making decision", "Trouble remembering things" ],
+"responses": ["Has this been going for long time?"]
+
+},
+{"tag" :"long",
+"patterns": ["yes from long time", "no not long"],
+"responses": ["This Symptoms says that you have depression /n Depression often makes us feel we are worthless, like there is no point to anything, or that we are unlovable /n I understand this is hard to explain to anyone"]
+},
+{"tag" : "harm",
+"patterns": ["i am not loved by anyone","not cared","not feel like living"],
+"responses": ["Have you ever felt of harming yourself due to anxiety?"]
+},
+{"tag": "happy",
+"patterns":["i feel lonely","no one likes me"],
+"responses":["Is there anything which makes you happy?"]
+},
+{"tag" : "thanks",
+"patterns":["thank you for your help"],
+"responses": ["NeuroCare is always there to help you"]
+},
+{"tag" : "panic attacks",
+"patterns":["i feel worthless","i feel underconfident","i feel disgusted","my life is waste"],
+"responses": ["Do you ever feel panic attacks like shivering of whole body?"]
+},
+{"tag" : "suicide",
+"patterns":["i want to die","i want to suicide","i want to quit"],
+"responses": ["I know that things were pretty unfair with you, the people you loved broke your trust but you see suicide is not an escape you want, we have to face many ups and downs but things change over time you just have to keep moving ahead"]
+},
+{"tag" : "sleep",
+"patterns":["overthinking","overthinker","sadness","unhappy","depression"],
+"responses": ["Do you ever feel multiple awakenings during sleep?"]
+},
+{"tag" : "interest",
+"patterns":["everything is waste", "no point in anything"],
+"responses": ["Have you lost your interest in usual or daily activities?"]
+},
+{"tag" : "anxious",
+"patterns":["i feel low","low steem"],
+"responses": ["Have you been anxious or worried for no reason?"]
+},
+
+{"tag" : "fail",
+"patterns":["i always fail"],
+"responses": ["Do you feel you have low self steem?"]
+},
+{"tag" : "lost-concentration",
+"patterns":["i cannot concentrate","i always feel lost","lost","recognise","i feel hard to sleep","I am having sleep sickness"],
+"responses": ["Do you feel difficulty in taking your own decisions?"]
+},
+{"tag" : "carrer",
+"patterns":["problem in carrer","life"],
+"responses": ["Do you consider yourself a failure?"]
+},
+{"tag" : "cheat",
+"patterns":["my loved ones left me, cheated"],
+"responses": ["Are there any recent problems you are facing in your Career also?"]
+},
+{"tag" : "unlucky",
+"patterns":["i am unlucky","badluck"],
+"responses": ["Are this problems related to your love life"]
+},
+{"tag" : "trust",
+"patterns":["people hate me","bad treatment"],
+"responses": ["Did somebody cheated you "]
+},
+{"tag" : "sleep",
+"patterns":["i cannot concentrate ","i feel underconfident","i feel disgusted","my life is waste"],
+"responses": ["Do you feel yourself unlucky?"]
+},
+{"tag" : "success",
+"patterns":["no career"],
+"responses": ["Do you feel that even after trying you do not get success?"]
+},
+
+{"tag" : "end",
+"patterns":["end"],
+"responses": ["Nice to meet You !"]
+}
+]
+}
+
+
